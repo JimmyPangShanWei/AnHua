@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 灰黑色背景 -->
+    <color name="lable_title_bg">#40474b</color>
+    <!-- 蓝色背景 -->
+    <color name="epc_bg">#1095f2</color>
+    <!-- 白色背景 -->
+    <color name="white">#ffffff</color>
+</resources>
