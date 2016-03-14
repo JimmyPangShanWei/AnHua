@@ -26,19 +26,25 @@ public final class R {
         public static final int main_btn_bg=0x7f020001;
         public static final int main_btn_click_bg=0x7f020002;
         public static final int main_btn_unclick_bg=0x7f020003;
+        public static final int title_back_src=0x7f020004;
+        public static final int title_back_src_sel=0x7f020005;
+        public static final int title_btn_back_bg=0x7f020006;
     }
     public static final class id {
         public static final int button_main_check=0x7f070002;
         public static final int button_main_in_order=0x7f070001;
         public static final int button_main_out_order=0x7f070000;
         public static final int button_main_zb_manager=0x7f070003;
+        public static final int button_out_order_mul_upload=0x7f070009;
+        public static final int button_out_order_sel_upload=0x7f070008;
+        public static final int button_out_order_start_scan=0x7f070007;
+        public static final int checkBox_list_item_zb_info_select=0x7f07000c;
         public static final int imageView_back=0x7f07000b;
         public static final int imageView_main_settings=0x7f070004;
-        public static final int spinner1=0x7f070005;
-        public static final int textView1=0x7f070006;
-        public static final int textView2=0x7f070007;
-        public static final int textView3=0x7f070008;
-        public static final int textView4=0x7f070009;
+        public static final int listView_out_order_zb_info=0x7f070006;
+        public static final int spinner_list_item_zb_info_layer=0x7f07000e;
+        public static final int spinner_out_order_select_order=0x7f070005;
+        public static final int textView_list_item_zb_info_epc=0x7f07000d;
         public static final int textView_title=0x7f07000a;
     }
     public static final class layout {
@@ -46,15 +52,20 @@ public final class R {
         public static final int activity_main=0x7f030001;
         public static final int activity_out_order=0x7f030002;
         public static final int label_title=0x7f030003;
+        public static final int listview_item_zb_info=0x7f030004;
     }
     public static final class string {
         public static final int app_name=0x7f050000;
         public static final int check_info=0x7f050003;
-        public static final int hello_world=0x7f050007;
+        public static final int epc=0x7f050008;
         public static final int in_order=0x7f050002;
+        public static final int layer=0x7f050007;
+        public static final int mul_upload=0x7f05000a;
         public static final int out_order=0x7f050001;
+        public static final int sel_upload=0x7f05000b;
         public static final int select_order=0x7f050006;
         public static final int settings=0x7f050005;
+        public static final int start_scan=0x7f050009;
         public static final int zb_manager=0x7f050004;
     }
     public static final class style {

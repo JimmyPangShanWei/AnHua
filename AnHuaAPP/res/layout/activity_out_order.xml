@@ -15,10 +15,10 @@
 		    android:layout_height="wrap_content"
 		    style="@style/NormalFontStyle"
 		    android:layout_margin="5dp"
-		    android:text="TextView" />
+		    android:text="@string/select_order" />
 
 		<Spinner
-		    android:id="@+id/spinner1"
+		    android:id="@+id/spinner_out_order_select_order"
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content" 
 		    android:layout_marginLeft="20dp"
@@ -34,11 +34,13 @@
 	    
 	    android:orientation="vertical" >
 
-		<TextView
-		    android:id="@+id/textView1"
-		    android:layout_width="wrap_content"
-		    android:layout_height="wrap_content"
-		    android:text="TextView" />
+<!-- 盘存时的展板信息框 -->  
+<ListView 
+    android:id="@+id/listView_out_order_zb_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+</ListView>  
 
 	</LinearLayout>
 
@@ -46,28 +48,37 @@
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
 	    android:orientation="horizontal"
-	    android:layout_margin="10dp" >
+	    android:layout_marginBottom="10dp" >
 
-		<TextView
-		    android:id="@+id/textView2"
+		<Button
+		    android:id="@+id/button_out_order_start_scan"
 		    android:layout_width="0dp"
 		    android:layout_height="wrap_content"
+		    style="@style/NormalFontStyle"
 		    android:layout_weight="1"
-		    android:text="TextView" />
+		    android:background="@drawable/main_btn_bg"
+		    android:layout_margin="3dp"
+		    android:text="@string/start_scan" />
 
-		<TextView
-		    android:id="@+id/textView3"
+		<Button
+		    android:id="@+id/button_out_order_sel_upload"
 		    android:layout_width="0dp"
 		    android:layout_height="wrap_content"
+		    style="@style/NormalFontStyle"
 		    android:layout_weight="1"
-		    android:text="TextView" />
+		    android:background="@drawable/main_btn_bg"
+		    android:layout_margin="3dp"
+		    android:text="@string/sel_upload" />
 
-		<TextView
-		    android:id="@+id/textView4"
+		<Button
+		    android:id="@+id/button_out_order_mul_upload"
 		    android:layout_width="0dp"
 		    android:layout_height="wrap_content"
+		    style="@style/NormalFontStyle"
 		    android:layout_weight="1"
-		    android:text="TextView" />
+		    android:background="@drawable/main_btn_bg"
+		    android:layout_margin="3dp"
+		    android:text="@string/mul_upload" />
 
 	</LinearLayout>
 
