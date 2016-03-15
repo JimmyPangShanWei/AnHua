@@ -43,7 +43,7 @@
 </ListView>  
 
 	</LinearLayout>
-
+<!-- 开始扫描，选择上传，批量上传 -->
 	<LinearLayout
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"

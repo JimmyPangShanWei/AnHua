@@ -3,6 +3,9 @@ package com.cn.anhua;
 import com.cn.anhua.base.MBaseActivity;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.Spinner;
 /**
  * 出库
  * 首先订单选择
@@ -17,6 +20,16 @@ import android.os.Bundle;
  */
 public class OutOrderActivity extends MBaseActivity {
 
+	//订单选择
+	private Spinner spinnerOrder ;
+	//栈板信息
+	private ListView listZB ;
+	//开始扫描
+	private Button btnStart ; 
+	//选择上传
+	private Button btnSelUpload ; 
+	//批量上传
+	private Button btnMulUpload ; 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -29,5 +42,10 @@ public class OutOrderActivity extends MBaseActivity {
 		super.setTitle(getString(R.string.out_order)) ;
 		//设置返回键可见
 		super.setBackKeyVisible(true) ;
+		spinnerOrder = (Spinner) findViewById(R.id.spinner_out_order_select_order) ;
+		listZB = (ListView) findViewById(R.id.listView_out_order_zb_info) ;
+		btnStart = (Button) findViewById(R.id.button_out_order_start_scan) ;
+		btnSelUpload = (Button) findViewById(R.id.button_out_order_sel_upload) ;
+		btnMulUpload = (Button) findViewById(R.id.button_out_order_mul_upload) ;
 	}
 }

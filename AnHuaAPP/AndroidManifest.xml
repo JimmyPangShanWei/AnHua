@@ -15,6 +15,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:name="com.cn.anhua.application.AnhuaApplication"
         android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
         <!-- 主界面 -->
         <activity
